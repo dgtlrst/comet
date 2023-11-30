@@ -1,9 +1,3 @@
-/* 
-    serial.rs
-
-    serial port driver
-*/
-
 use serialport::Error;
 
 pub fn list_available_ports() -> Result<Vec<serialport::SerialPortInfo>, Error> {

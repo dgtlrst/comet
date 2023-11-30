@@ -1,9 +1,3 @@
-/* 
-    ui.rs
-
-    terminal user interface
-*/
-
 use crossterm::{
     execute,
     terminal::{self, ClearType, EnterAlternateScreen, disable_raw_mode, LeaveAlternateScreen},

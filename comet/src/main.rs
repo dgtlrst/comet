@@ -1,9 +1,3 @@
-/* 
-    main.rs
-
-    entry point
-*/
-
 mod serial;
 mod ui;
 
